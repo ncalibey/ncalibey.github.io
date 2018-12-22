@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC');
+
+main section {
+  display: flex;
+}
+
+div.image {
+  flex: 1.02;
+}
+
+main article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+div.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main div {
+  max-width: 50vw;
+}
+
+main h2,
+.button {
+  font-family: 'Alegreya Sans SC', Helvetica, sans-serif;
+}
+
+main h2 {
+  margin-bottom: 18px;
+  font-size: 60px;
+  white-space: nowrap;
+}
+
+main p {
+  font-family: 'Alegreya Sans', serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+main p:last-of-type {
+  margin-bottom: 30px;
+}
+
+.text-box {
+  width: 70%;
+}
+
+a.button {
+  font-size: 30px;
+  border: 3px solid #FFF;
+}
+
+div.button {
+  text-align: center;
+}
+
+.tech-stack img {
+  height: 50px;
+}
+
+.tech-stack ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.tech-stack li {
+  display: inline-block;
+}
+
+#chronos {
+  background: #004470;
+  color: #ebedec;
+}
+
+#chronos h2 {
+  color: #FFF;
+}
+
+#chronos .image img {
+  width: 40vw;
+  height: 40vw;
+}
+
+#chronos p a {
+  text-decoration: underline;
+}
+
+#chronos p a:hover {
+  color: #7d93bc;
+}
+
+#chronos a.button {
+  color: #FFF;
+  padding: 10px 40px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#chronos a.button:hover {
+  color: #004470;
+  background: #FFF;
+}
