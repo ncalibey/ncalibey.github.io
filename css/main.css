@@ -26,6 +26,7 @@ main div {
 }
 
 main h2,
+main h3,
 .button {
   font-family: 'Alegreya Sans SC', Helvetica, sans-serif;
 }
@@ -34,6 +35,10 @@ main h2 {
   margin-bottom: 18px;
   font-size: 60px;
   white-space: nowrap;
+}
+
+main h3 {
+  font-size: 40px;
 }
 
 main p {
@@ -51,9 +56,25 @@ main p:last-of-type {
   width: 70%;
 }
 
+.logo {
+  font-size: 50px;
+}
+
+.devicons-javascript_badge:hover { color: #f0db4e; }
+.devicons-react:hover { color: #25D8FD; }
+.devicons-ruby_on_rails:hover,
+.devicons-ruby:hover {
+  color: #CA0813;
+}
+.devicons-html5:hover { color: #EE6534; }
+.devicons-css3:hover { color: #1D72B4; }
+.devicons-jquery:hover { color: #1469AA; }
+
 a.button {
   font-size: 30px;
   border: 3px solid #FFF;
+  padding: 10px 40px;
+  border-radius: 10px;
 }
 
 div.button {
@@ -68,10 +89,6 @@ div.button {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-}
-
-.tech-stack li {
-  display: inline-block;
 }
 
 #chronos {
@@ -106,4 +123,44 @@ div.button {
 #chronos a.button:hover {
   color: #004470;
   background: #FFF;
+}
+
+#other-projects {
+  display: block;
+  background: #E6ECF0;
+}
+
+#other-projects article {
+  padding: 40px 0;
+}
+
+#other-projects a.button {
+  border-color: #000;
+}
+
+#other-projects a.button:hover {
+  background-color: #000;
+  color: #E6ECF0;
+}
+
+#other-projects .tech-stack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+
+#guess-a-game article,
+#postit article {
+  padding-top: 0;
+}
+
+
+.placeholder {
+  filter: opacity(0%);
 }
