@@ -3,11 +3,83 @@
   <head>
     <meta charset="utf-8">
     <title>Nick Calibey | Software Engineer</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
   </head>
   <body>
     <nav>
+      <h1>Nick V. Calibey</h1>
+      <ul>
+        <li>email</li>
+        <li>github</li>
+        <li>linkedin</li>
+      </ul>
     </nav>
     <main>
+      <section id="intro">
+        <div>
+          <h2>Hey there! I'm Nick.</h2>
+          <p>I'm a software engineer who currently lives in Tulsa, OK.
+            I strive to produce excellent work in my craft and continually expand my toolset of technologies.</p>
+        </div>
+      </section>
+      <section id="chronos">
+        <div class="image">
+          <img src="images/chronos_logo.png" alt="Chronos Logo" />
+        </div>
+        <article>
+          <div class="text-box">
+            <h2>.: Chronos</h2>
+            <p>I am the co-creator of <a href="https://chronos-project.github.io/" target="_blank">Chronos</a>, an open-source event-capturing framework for greenfield applications. Chronos uses a tracker file on the client side and is built on the server side with NodeJS, Apache Kafka, TimescaleDB, and PipelineDB. It uses Grafana to visualize captured data, and is deployed via Docker.</p>
+            <p>You can <a href="https://github.com/chronos-project/chronos-pipeline" target="_blank">clone our repo</a> and read more about our journey:</p>
+            <div class="button">
+              <a class="button" href="https://chronos-project.github.io/casestudy">Case Study</a>
+            </div>
+            <div class="tech-stack">
+              <ul>
+                <li><img src="images/white_logos/js_white.png" alt="JavaScript logo"></li>
+                <li><img src="images/white_logos/nodejs_white.png" alt="NodeJS logo" /></li>
+                <li><img src="images/white_logos/kafka_white.png" alt="Kafka logo" /></li>
+                <li><img src="images/white_logos/timescale_white.png" alt="TimescaleDB logo" /></li>
+                <li><img src="images/white_logos/pipeline_white.png" alt="PipelineDB logo" /></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="other-projects">
+        <h2>lorem ipsum</h2>
+        <div id="trello" class="smaller-project">
+          <h3>Crello</h3>
+          <p>A <a href="https://trello.com/">Trello</a> clone built using ReactJS with Redux on the front-end and Rails 5 on the back-end. It supports many of the features of Trello including creating, editing, and deleting boards, lists, and cards, while also specifying due dates and labels</p>
+          <div class="tech-stack">
+            <ul>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>ReactJS</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </div>
+          <a>See it at Github</a>
+        </div>
+        <div id="contacts-manager" class="smaller-project">
+          <h3>Contact Manager</h3>
+          <p>A contact manager application that allows you to add, edit, delete, and tag contacts. The front-end was built in JavaScript with jQuery as well as Handlebars for templating.</p>
+          <div class="tech-stack">
+            <ul>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <a href="https://github.com/ncalibey/contact_manager" target="_blank">See it at Github</a>
+        </div>
+      </section>
+      <section id="bookshelf">
+      </section>
     </main>
+    <footer>
+    </footer>
   </body>
 </html>
