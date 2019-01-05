@@ -49,6 +49,34 @@
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
 }
+/* Sweep To Top */
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: white;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
 
 main section {
   display: flex;
@@ -164,6 +192,7 @@ a.button {
   border: 3px solid #FFF;
   padding: 10px 40px;
   border-radius: 10px;
+  position: relative;
 }
 
 div.button {
@@ -207,12 +236,15 @@ div.button {
   padding: 10px 40px;
   border-radius: 10px;
   display: inline-block;
+  z-index: 0;
 }
 
-#chronos a.button:hover {
+#chronos .hvr-sweep-to-top:before { background: #FFF; }
+#chronos .hvr-sweep-to-top:hover { color: #004470; }
+
+/* #chronos a.button:hover {
   color: #004470;
-  background: #FFF;
-}
+} */
 
 #other-projects {
   display: block;
@@ -225,12 +257,17 @@ div.button {
 
 #other-projects a.button {
   border-color: #000;
+  position: relative;
+  z-index: 0;
 }
 
-#other-projects a.button:hover {
+#other-projects .hvr-sweep-to-top:before { background: #000; }
+#other-projects .hvr-sweep-to-top:hover { color: #E6ECF0; }
+
+/* #other-projects a.button:hover {
   background-color: #000;
   color: #E6ECF0;
-}
+} */
 
 #other-projects .tech-stack {
   display: flex;
