@@ -130,6 +130,7 @@ main p:last-of-type {
   margin-bottom: 30px;
 }
 
+/* ==== Intro ==== */
 #intro {
   background: #D2E0C0;
   height: 100vh;
@@ -160,10 +161,12 @@ main p:last-of-type {
 
 #intro ul {
   display: flex;
-  justify-content: space-evenly;
 }
 
-#intro li { width: 70px; }
+#intro li {
+  width: 70px;
+  margin-right: 30px;
+}
 
 #intro li a {
   color: transparent;
@@ -242,10 +245,7 @@ div.button {
 #chronos .hvr-sweep-to-top:before { background: #FFF; }
 #chronos .hvr-sweep-to-top:hover { color: #004470; }
 
-/* #chronos a.button:hover {
-  color: #004470;
-} */
-
+/* ==== Other Projects ==== */
 #other-projects {
   display: block;
   background: #E6ECF0;
@@ -330,7 +330,7 @@ div.button {
     margin: 0 0 0 auto;
   }
 
-  #intro img {
-    width: 100%;
-  }
+  #intro img { width: 100%; }
+  #intro ul { justify-content: space-evenly; }
+  #intro li { margin-right: 0; }
 }
