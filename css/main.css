@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Alegreya+Sans+SC|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800|Alegreya+Sans+SC|Permanent+Marker');
 
 /* Grow Shadow */
 .hvr-grow-shadow {
@@ -138,6 +138,11 @@ main p:last-of-type {
   margin-bottom: 30px;
 }
 
+.emphasize {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
 /* ==== Intro ==== */
 #intro {
   background: #D2E0C0;
@@ -190,6 +195,8 @@ main p:last-of-type {
 .text-box {
   width: 80%;
 }
+
+#intro .text-box { width: 90%;  }
 
 .logo {
   font-size: 50px;
@@ -246,7 +253,8 @@ div.button {
   text-decoration: underline;
 }
 
-#chronos p a:hover {
+#chronos p a:hover,
+#intro p a:hover {
   color: #6C96FA;
 }
 
