@@ -78,6 +78,15 @@
   transform: scaleY(1);
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 main section {
   display: flex;
 }
@@ -394,4 +403,14 @@ div.button {
     font-size: 48px;
     margin-left: -33px;
   }
+}
+
+@media screen and (max-width: 359px) {
+  #other-projects h2 {
+    font-size: 40px;
+    margin-left: -25px;
+  }
+
+  #other-projects h3 { font-size: 34px; }
+  .logos { max-width: 100%; }
 }
