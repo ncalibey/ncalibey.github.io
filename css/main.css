@@ -364,7 +364,7 @@ div.button {
   .logos {
     max-width: 70%;
     margin: 0 auto 20px auto;
-    max-width: 90vw;
+    width: 90vw;
   }
 
   #other-projects a.button {
