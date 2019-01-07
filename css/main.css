@@ -249,6 +249,8 @@ div.button {
   width: 40vw;
 }
 
+#chronos p { font-size: 26px; }
+
 #chronos p a {
   text-decoration: underline;
 }
