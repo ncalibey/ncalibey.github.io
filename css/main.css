@@ -163,7 +163,7 @@ main p:last-of-type {
 }
 
 #intro .icon {
-  width: 70px;
+  width: 55px;
   height: auto;
 }
 
@@ -181,6 +181,11 @@ main p:last-of-type {
 }
 
 #intro h2 { font-family: 'Permanent Marker', fantasy; }
+
+#intro p {
+  font-size: 35px;
+  line-height: 35px;
+}
 
 .text-box {
   width: 80%;
@@ -279,6 +284,8 @@ div.button {
   display: flex;
   justify-content: space-between;
 }
+
+.smaller-project { width: 50vw; }
 
 .row {
   display: flex;
@@ -382,7 +389,10 @@ div.button {
 
   #other-projects .tech-stack,
   #other-projects .text-box,
-  .smaller-project { max-width: 90vw; }
+  .smaller-project {
+    max-width: 90vw;
+    width: 90vw;
+  }
   .placeholder { display: none; }
 
   .row { flex-direction: column; }
