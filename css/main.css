@@ -332,7 +332,11 @@ footer .button {
   cursor: pointer;
 }
 
-footer .hvr-sweep-to-top:before { background: #000; }
+footer .hvr-sweep-to-top:before {
+  background: #000;
+  right: -1px;
+}
+
 footer .hvr-sweep-to-top:hover { color: #FFF; }
 
 .email {
