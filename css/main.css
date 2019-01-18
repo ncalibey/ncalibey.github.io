@@ -167,6 +167,7 @@ footer .icon {
 }
 
 #intro li a { color: transparent; }
+#intro li a img { display: block; }
 #intro h2 { font-family: 'Permanent Marker', fantasy; }
 
 #intro p {
